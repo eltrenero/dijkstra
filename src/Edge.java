@@ -3,6 +3,9 @@ public class Edge {
     public Node end;
     public int weight;
     
+    Edge(){
+    	}
+    
     Edge(Node start, Node end, int weight){
     	this.start=start;
     	this.end=end;
